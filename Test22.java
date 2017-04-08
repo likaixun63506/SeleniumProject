@@ -14,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class Test22 {
-    WebDriver driver;
+   // WebDriver driver;
     private boolean acceptNextAlert = true;
 	@Before
 	public void setUp() throws Exception {
