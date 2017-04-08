@@ -16,7 +16,7 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 public class Test20 {
    WebDriver driver;
 
-   private boolean acceptNextAlert = tr;
+   private boolean acceptNextAlert = true;
 
 
 	@Before
