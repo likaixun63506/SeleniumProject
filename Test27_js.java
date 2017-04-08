@@ -26,7 +26,7 @@ public class Test27_js {
 
 	@Before
 	public void setUp() throws Exception {
-		FirefoxProfile pfile = new FirefoxProfile();
+		FirefoxProfile pfile = new FirefoxProfill();
 		profile.setPreference("dom.ipc.plugins.enabled", false);
 		driver = new FirefoxDriver(profile);
 		driver.manage().window().maximize();
