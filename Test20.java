@@ -15,7 +15,7 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class Test20 {
    WebDriver driver;
-   private boolean acceptNextAlert = true;
+   private boolean acceptNextAlert = tr;
 	@Before
 	public void setUp() throws Exception {
 		FirefoxProfile profile = new FirefoxProfile();
