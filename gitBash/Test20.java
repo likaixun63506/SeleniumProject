@@ -15,10 +15,11 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class Test20 {
    WebDriver driver;
-
+<<<<<<< HEAD
    private boolean acceptNextAlert = tr;
-
-
+=======
+   private boolean acceptNextAlert = trff;
+>>>>>>> temp
 	@Before
 	public void setUp() throws Exception {
 		FirefoxProfile profile = new FirefoxProfile();
