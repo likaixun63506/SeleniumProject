@@ -34,7 +34,10 @@ public class Test26_mouse_key {
 
 	@Test
 	public void testb() throws Exception {
-		driver.get("file:///E:/Selenium/example/example/message.html");
+	
+driver.get("file:///E:/Seenium/example/example/message.html");
+		driver.finElement(By.name("name")).sendKeys("jack");
+driver.get("file:///E:/Selenium/example/example/message.html");
 		driver.findElement(By.name("name")).sendKeys("jack");
 		//要复制的元素
 		WebElement element1 = driver.findElement(By.name("name"));
