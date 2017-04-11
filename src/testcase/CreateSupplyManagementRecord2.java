@@ -25,7 +25,7 @@ public class CreateSupplyManagementRecord2 {
 		//utills.driver=driver;
 		Log.info("-----------------------------Start----------------------------------");
 		Log.info("78OA is open");
-//		driver=utills.driver;
+		driver=utills.driver;
 //
 //		Log.info("登录 button is clicked ");
 //		//登录78OA
